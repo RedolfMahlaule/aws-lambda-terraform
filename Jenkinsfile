@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     dir("terraform") {
-                        git branch: 'master', url: 'https://github.com/RedolfMahlaule/terraform-jenkins-aws.git'
+                        git branch: 'master', url: 'https://github.com/RedolfMahlaule/aws-lambda-terraform.git'
                     }
                 }
             }
