@@ -1,7 +1,7 @@
-# provider "aws" {
-#   region                   = "eu-central-1"
+provider "aws" {
+  region                   = "us-east-2"
 #   shared_credentials_files = ["/Users/rahulwagh/.aws/credentials"]
-# }
+}
 
 resource "aws_iam_role" "lambda_roles" {
  name   = "terraform_aws_lambda_role"
